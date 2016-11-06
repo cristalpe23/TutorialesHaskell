@@ -1,0 +1,23 @@
+// tupla
+
+Prelude> let tupla = (1, 'a' ,2)
+Prelude> tupla
+(1,'a',2)
+
+// Dupla
+
+Prelude> let dupla = (1,'a')
+Prelude> dupla
+(1,'a')
+
+// Tripla
+
+Prelude> let tripla = (1,'a',2)
+Prelude> tripla
+(1,'a',2)
+
+// Cuatrupla
+
+Prelude> let cuatrupla = (1,'a',2, 'b')
+Prelude> cuatrupla
+(1,'a',2,'b')
