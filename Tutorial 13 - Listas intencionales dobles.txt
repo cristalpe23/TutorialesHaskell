@@ -1,0 +1,5 @@
+// Lista intencional doble
+
+Prelude> let lista = [x*y | x <- [2,8,10,12], y <- [7,5,6,9]]
+Prelude> lista
+[14,10,12,18,56,40,48,72,70,50,60,90,84,60,72,108]
