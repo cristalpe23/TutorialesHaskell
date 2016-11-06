@@ -1,0 +1,13 @@
+//Funcion Repeat
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> repeat x
+
+//Funcion cycle
+
+Prelude> x= [1,2..10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> cycle x
