@@ -1,0 +1,19 @@
+// Conversor Show
+
+Prelude> show "a"
+"\"a\""
+Prelude> show 5
+"5"
+Prelude> show (5, "f")
+"(5,\"f\")"
+Prelude> show [1..5]
+"[1,2,3,4,5]"
+
+// Conversor Read.
+
+Prelude> read "5.8" + 8.4
+14.2
+Prelude> read "True" && False
+False
+Prelude> read "[1,2,3]" ++ [4]
+[1,2,3,4]
