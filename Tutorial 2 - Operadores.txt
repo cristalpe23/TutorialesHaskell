@@ -1,0 +1,17 @@
+//OPERADORES ARITMETICOS
+
+Prelude> let x = 5 + 7
+Prelude> x
+12
+
+//OPERADORES LOGICOS
+
+Prelude> let x = True && True
+Prelude> x
+True
+
+//OPERADORES DE COMPARACION
+
+Prelude> let x = 7
+Prelude> x
+7
