@@ -1,0 +1,23 @@
+//FUNCION SUCC
+
+Prelude> succ 1
+2
+Prelude> succ "a"
+
+//FUNCION MIN
+
+Prelude> min 52 7
+7
+Prelude> min 1 2
+1
+Prelude> min 11 10
+10
+
+//FUNCION MAX
+
+Prelude> max 11 10
+11
+Prelude> max 52 7
+52
+Prelude> max 1 2
+2
