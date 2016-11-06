@@ -1,0 +1,120 @@
+// Funcion Length
+
+Prelude> x= [1,2..7]
+Prelude> x
+[1,2,3,4,5,6,7]
+Prelude> length x
+7
+
+//Funcion Head
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> head x
+1
+
+//Funcion Tail
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> tail x
+[2,3,4,5]
+
+//Funcion Last
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> last x
+5
+
+//Funcion Init
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> init x
+[1,2,3,4]
+
+//Funcion Reverse
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> reverse x
+[5,4,3,2,1]
+
+//Funcion Take
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> take 3 x
+[1,2,3]
+Prelude> x= [1,2..10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> take 8 x
+[1,2,3,4,5,6,7,8]
+Prelude> take 1 x
+[1]
+
+//Funcion Drop
+
+Prelude> x= [1,2..10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> drop 5 x
+[6,7,8,9,10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> drop 1 x
+[2,3,4,5,6,7,8,9,10]
+Prelude> drop 9 x
+[10]
+
+//Funcion Minimum
+
+Prelude> x= [1,2..10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> minimum x
+1
+
+//Funcion Sum
+Prelude> x= [1,2..10]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> sum x
+55
+Prelude> x= [1,2..20]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+Prelude> sum x
+210
+
+//Funcion Product
+
+Prelude> x= [1,2..20]
+Prelude> x
+[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+Prelude> product x
+2432902008176640000
+Prelude> x= [1,2..10]
+Prelude> product x
+3628800
+Prelude> x= [1,2..5]
+Prelude> product x
+120
+
+//Funcion Elem
+
+Prelude> x= [1,2..5]
+Prelude> x
+[1,2,3,4,5]
+Prelude> elem 3 x
+True
+Prelude> elem 6 x
+False
