@@ -1,0 +1,12 @@
+// Concatenar listas del mismo tipo de dato
+
+Prelude> ['a','b'..'j'] ++ ['l','m'..'z']
+"abcdefghijlmnopqrstuvwxyz"
+Prelude> ['a','b'..'j'] ++ ['l']
+"abcdefghijl"
+Prelude>  [1] ++ [2,3..11]
+[1,2,3,4,5,6,7,8,9,10,11]
+Prelude>  [1,2..10] ++ [11]
+[1,2,3,4,5,6,7,8,9,10,11]
+Prelude>  [1,2..10] ++ [11,12..15]
+[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
