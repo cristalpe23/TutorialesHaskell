@@ -1,0 +1,24 @@
+// dupla
+
+Prelude> let dupla = (1,2)
+Prelude> dupla
+(1,2)
+
+// Funcion fst
+
+Prelude> fst dupla
+1
+
+// Funcion snd
+
+Prelude> snd dupla
+2
+// funcion fst directa sin crear tupla
+
+Prelude> fst (4.8, 'a')
+4.8
+
+// Funcion snd directa
+
+Prelude> snd (4.8, 'a')
+'a'
