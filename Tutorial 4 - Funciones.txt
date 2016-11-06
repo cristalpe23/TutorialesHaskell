@@ -1,0 +1,8 @@
+//Crear funciones
+
+//Cargar funcion
+:l resta.hs
+*Main> resta 5 2
+3
+*Main> resta 6 7
+-1
