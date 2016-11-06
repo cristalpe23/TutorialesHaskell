@@ -1,0 +1,6 @@
+// Funcion Zip
+
+Prelude> let alumnos = ["Jorge", "Agustin", "Cristal", "Rafael"]
+Prelude> let calificaciones = [9,10,10,9]
+Prelude> zip alumnos calificaciones
+[("Jorge",9),("Agustin",10),("Cristal",10),("Rafael",9)]
