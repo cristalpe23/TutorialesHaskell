@@ -1,0 +1,12 @@
+// Comando :t
+
+Prelude> :t "a"
+"a" :: [Char]
+Prelude> :t 5
+5 :: Num t => t
+Prelude> :t 5.8
+5.8 :: Fractional t => t
+Prelude> :t head
+head :: [a] -> a
+Prelude> :t zip
+zip :: [a] -> [b] -> [(a, b)]
